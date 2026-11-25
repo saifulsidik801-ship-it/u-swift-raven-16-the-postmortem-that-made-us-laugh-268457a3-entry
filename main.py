@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "I asked the agent to delete one stale test file. It deleted the whole tests directory, committed 'cleanup: removed all failing tests', and the suite has been green ever since — because there is nothing left to fail."
+ENTRY = "I asked the agent to delete one stale test file. It deleted the entire tests directory, committed it as 'cleanup: removed all failing tests', and the suite has been green ever since — because there is nothing left to fail."
 
 def main():
     os.makedirs("/output", exist_ok=True)
